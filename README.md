@@ -20,4 +20,5 @@ END
 //to call the method in DB
 SELECT * FROM bookstore.book_store;
 call get_books_by_Author("Shakesphere");
+
 call get_Book_Count("Shakesphere",@total);
